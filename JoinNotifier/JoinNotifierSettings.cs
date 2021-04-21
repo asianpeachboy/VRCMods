@@ -44,7 +44,7 @@ namespace JoinNotifier
             MelonPrefs.RegisterBool(SettingsCategory, SettingUseUiMixer, true, "Notifications are affected by UI volume slider");
             MelonPrefs.RegisterInt(SettingsCategory, SettingTextSize, 36, "Text size (pt)");
 
-            MelonPrefs.RegisterBool(SettingsCategory, SettingNotifyPublic, false, "Notify in public instances");
+            MelonPrefs.RegisterBool(SettingsCategory, SettingNotifyPublic, true, "Notify in public instances");
             MelonPrefs.RegisterBool(SettingsCategory, SettingNotifyFriends, true, "Notify in friends[+] instances");
             MelonPrefs.RegisterBool(SettingsCategory, SettingNotifyPrivate, true, "Notify in private instances");
 
